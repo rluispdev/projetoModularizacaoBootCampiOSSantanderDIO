@@ -1,0 +1,39 @@
+{
+  "name": "ChartFeature",
+  "version": "0.1.0",
+  "summary": "Feature for creating charts easily in iOS apps.",
+  "description": "ChartFeature is a utility for creating beautiful and functional charts\nin your iOS apps. It leverages popular libraries and provides a simple interface.",
+  "homepage": "https://github.com/rluispdev/ChartFeature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rluispdev": "rluisp@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/rluispdev/ChartFeature.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "6.0",
+  "platforms": {
+    "ios": "18.0"
+  },
+  "source_files": "ChartFeature/Classes/**/*",
+  "default_subspecs": "Release",
+  "dependencies": {
+    "DGCharts": [
+
+    ],
+    "TinyConstraints": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Frameworks/ChartFeature.framework"
+    }
+  ],
+  "swift_version": "6.0"
+}

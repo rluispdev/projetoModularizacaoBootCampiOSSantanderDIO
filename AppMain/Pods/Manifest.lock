@@ -1,0 +1,33 @@
+PODS:
+  - ChartFeature (0.1.0):
+    - ChartFeature/Release (= 0.1.0)
+    - DGCharts
+    - TinyConstraints
+  - ChartFeature/Release (0.1.0):
+    - DGCharts
+    - TinyConstraints
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - ChartFeature (from `../ChartFeature/`)
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  ChartFeature:
+    :path: "../ChartFeature/"
+
+SPEC CHECKSUMS:
+  ChartFeature: de02c344fc3034758014db32c60c28be4983c4a4
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 33460c0ad0396dbe81abfd9fbe3e1d03c9d72048
+
+COCOAPODS: 1.16.0
